@@ -1,0 +1,20 @@
+.box {
+    height: 8px;
+    width: 8px;
+    border: 1px solid black;
+}
+
+#draw {
+    display: flex;
+    height: 160px;
+    width: 160px;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
